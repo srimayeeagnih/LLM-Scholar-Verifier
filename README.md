@@ -1,6 +1,6 @@
 # LLM Scholar Verifier
 
-An automated academic claim verification system that decomposes LLM-generated answers into verifiable propositions, retrieves supporting evidence from live scientific literature (arXiv, Semantic Scholar), and scores each claim using a Bayesian evidence accumulation framework.
+Most open-source LLMs such as ChatGPT and Claude are known to miss to capture the dense and nuanced information claimed in academic literature. These models are known to have a training corpus largely based on the internet, which contains a lot more misinformation relative to peer-reviewed papers. As a result, scholars and students doing research risk harming the quality of their own literature review process while using these models with the intention of speeding up the search process. This automated academic claim verification system that decomposes LLM-generated answers into verifiable propositions, retrieves supporting evidence from live scientific literature (arXiv, Semantic Scholar), and scores each claim using a Bayesian evidence accumulation framework. Due to the limited evidence corpus, I have decided to frame this tool as a decision-support tool offering validity and confidence scores instead of binary 'true'/'false' claim detection.
 
 ---
 
@@ -86,7 +86,7 @@ Query results are cached using FAISS `IndexFlatIP` over `all-MiniLM-L6-v2` embed
 
 ## Pipeline Versions & Results
 
-### Version 1–3 (Legacy Pipeline — Feb 2026)
+### Version 1–3 (Legacy Pipeline)
 
 Versions 1–3 used TF-IDF/KNN for retrieval, Doc2Vec for sentence scoring, and syntactic counterfactual negation for claim-level agreement analysis.
 
@@ -120,7 +120,7 @@ Versions 1–3 used TF-IDF/KNN for retrieval, Doc2Vec for sentence scoring, and 
 
 ---
 
-### Extended Pipeline — Initial Results (04/19/2026)
+### Extended Pipeline — Initial Results
 
 First run of the new architecture with MiniLM hybrid retrieval and Bayesian scoring. NLI cross-encoder not yet integrated at this stage.
 
