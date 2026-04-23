@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+requests
+pdfminer.six
+nltk
+scikit-learn
+spacy
+numpy
+scipy
+python-multipart
+faiss-cpu
+sentence-transformers
+rank-bm25
+transformers

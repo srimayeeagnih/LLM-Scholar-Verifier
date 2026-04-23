@@ -1,0 +1,35 @@
+# Pipeline scripts (excluded per project decision)
+MCP_test_extension.py
+MCP_metrics.py
+
+# Cache
+backend/cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Env
+.env
+*.env
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# Temp / OS
+.DS_Store
+Thumbs.db
+_temp_stats.xlsx
+
+# Large zips
+Group_Project_Code.zip
