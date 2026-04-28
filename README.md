@@ -104,19 +104,19 @@ Versions 1–3 used TF-IDF/KNN for retrieval, Doc2Vec for sentence scoring, and 
 **V3 charts (02/19/2026):**
 
 <p float="left">
-  <img src="chart1_avg_validity.png" width="45%"/>
-  <img src="chart2_avg_agreement.png" width="45%"/>
+  <img src="visualizations/chart1_avg_validity.png" width="45%"/>
+  <img src="visualizations/chart2_avg_agreement.png" width="45%"/>
 </p>
 <p float="left">
-  <img src="chart3_avg_disagreement.png" width="45%"/>
-  <img src="chart4_ratio_zeros.png" width="45%"/>
+  <img src="visualizations/chart3_avg_disagreement.png" width="45%"/>
+  <img src="visualizations/chart4_ratio_zeros.png" width="45%"/>
 </p>
 <p float="left">
-  <img src="chart5_ratio_missing.png" width="45%"/>
-  <img src="chart6_papers_above_80.png" width="45%"/>
+  <img src="visualizations/chart5_ratio_missing.png" width="45%"/>
+  <img src="visualizations/chart6_papers_above_80.png" width="45%"/>
 </p>
 
-<img src="chart7_validity_distribution.png" width="70%"/>
+<img src="visualizations/chart7_validity_distribution.png" width="70%"/>
 
 ---
 
@@ -129,15 +129,15 @@ First run of the new architecture with MiniLM hybrid retrieval and Bayesian scor
 - Validity scores showing meaningful spread (0.5–0.94)
 
 <p float="left">
-  <img src="chart8_bayesian_validity_dist.png" width="45%"/>
-  <img src="chart9_pooled_vs_avg_validity.png" width="45%"/>
+  <img src="visualizations/chart8_bayesian_validity_dist.png" width="45%"/>
+  <img src="visualizations/chart9_pooled_vs_avg_validity.png" width="45%"/>
 </p>
 <p float="left">
-  <img src="chart10_support_vs_contradiction.png" width="45%"/>
-  <img src="chart11_avg_uncertainty_dist.png" width="45%"/>
+  <img src="visualizations/chart10_support_vs_contradiction.png" width="45%"/>
+  <img src="visualizations/chart11_avg_uncertainty_dist.png" width="45%"/>
 </p>
 
-<img src="chart12_evidence_volume.png" width="70%"/>
+<img src="visualizations/chart12_evidence_volume.png" width="70%"/>
 
 ---
 
